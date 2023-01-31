@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+    <title>Praveen Sankhla</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/542578f93c.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+    <div class="Mybtn">
+        <a class="btn btn-primary" href="./add to cart.html" target="_blank"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Cart&nbsp;<span class="badge bg-danger" id="cartvalue">0</span></a>
+    </div>
+
+<div aria-live="polite" aria-atomic="true" class="d-flex justify-content-center align-items-center w-100">
+
+  <div class="toast" id="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+      <img src="https://freepngimg.com/thumb/categories/627.png" style="width: 30px; height: 30px;" class="rounded me-2" alt="Item">
+      <strong class="me-auto">Item Added Succesfully</strong>
+      <a href="./add to cart.html" target="_blank">Go to Cart</a>
+      <button type="button" onclick="Close()" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    <div class="toast-body">
+      Check your cart to further step
+    </div>
+  </div>
+</div>
+
+    <div class="card" style="display: grid; grid-template-columns: auto auto auto auto; text-align: center; margin: 0px 20px;"> 
+          
+      <div class="card-body" style="border: 1px solid black; padding: 5px;">
+        <img src="https://freepngimg.com/thumb/categories/627.png" style="width:100px; height: 100px;" class="card-img-top" alt="Shoes Image">
+          <h5 class="card-title">Adidas White</h5>
+          <p class="card-text">Adidas White Sports Shoes Stylish for Man and Women.</p>
+          <span class="badge bg-danger" style="display: flex; width: 40%;">70% discount</span>
+          <p><span style="text-decoration: line-through;">1012&nbsp;</span>&nbsp;Rs. 360</p>
+          <button class="btn btn-success" id="addcart" onclick="AddtoCart()">Add to Cart</button>
+        </div>
+
+        
+        <div class="card-body" style="border: 1px solid black; padding: 5px;">
+          <img src="https://freepngimg.com/thumb/categories/627.png" style="width:100px; height: 100px;" class="card-img-top" alt="Shoes Image">
+          <h5 class="card-title">Adidas White</h5>
+          <p class="card-text">Adidas White Sports Shoes Stylish for Man and Women.</p>
+          <p><span style="text-decoration: line-through;">1012&nbsp;</span>&nbsp;<span class="badge bg-danger">70% discount</span>&nbsp;Rs. 360</p>
+          <button class="btn btn-success" id="addcart" onclick="AddtoCart()">Add to Cart</button>
+        </div>
+
+        
+        <div class="card-body" style="border: 1px solid black; padding: 5px;">
+          <img src="https://freepngimg.com/thumb/categories/627.png" style="width:100px; height: 100px;" class="card-img-top" alt="Shoes Image">
+          <h5 class="card-title">Adidas White</h5>
+          <p class="card-text">Adidas White Sports Shoes Stylish for Man and Women.</p>
+          <p><span style="text-decoration: line-through;">1012&nbsp;</span>&nbsp;<span class="badge bg-danger">70% discount</span>&nbsp;Rs. 360</p>
+          <button class="btn btn-success" id="addcart" onclick="AddtoCart()">Add to Cart</button>
+        </div>
+
+        
+        <div class="card-body" style="border: 1px solid black; padding: 5px;">
+          <img src="https://freepngimg.com/thumb/categories/627.png" style="width:100px; height: 100px;" class="card-img-top" alt="Shoes Image">
+          <h5 class="card-title">Adidas White</h5>
+          <p class="card-text">Adidas White Sports Shoes Stylish for Man and Women.</p>
+          <p><span style="text-decoration: line-through;">1012&nbsp;</span>&nbsp;<span class="badge bg-danger">70% discount</span>&nbsp;Rs. 360</p>
+          <button class="btn btn-success" id="addcart" onclick="AddtoCart()">Add to Cart</button>
+        </div>
+      </div>
+
+
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>

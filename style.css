@@ -1,0 +1,10 @@
+.Mybtn{
+    display:flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 20vh;
+}
+
+.toast:not(.show) {
+    display: none;
+}
